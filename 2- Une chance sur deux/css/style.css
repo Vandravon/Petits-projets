@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(88, 31, 31);
+    color: #F1F1F1F1;
+}
+
+:root {
+    --margin: 20px;
+
+}
+
+h1 {
+    margin: var(--margin);
+}
+
+#game {
+    margin: var(--margin);
+    display: inline-block;
+}
+
+#game > * {
+    margin: var(--margin);
+}
+
+.green {
+    border: 2px solid rgb(62, 139, 62);
+}
+
+.blue {
+    border: 2px solid rgb(68, 68, 121);
+}
