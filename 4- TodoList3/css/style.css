@@ -20,7 +20,9 @@ body {
   margin: 0 auto;
   background-image: url("../todolist.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover;  
+  border-radius: 0px 10px 0px 10px;
+  box-shadow: 1px 1px 1px 1px rgba(213, 232, 238, 0.9);
 }
 
 h1 {
@@ -45,13 +47,13 @@ h1 {
 }
 
 #entry {
-  border: 4px solid teal;
   height: 2%;
   width: 80%;
   font-size: 1rem;
   padding: 1rem;
   margin-right: 2rem;
   border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(213, 232, 238, 0.9);
 }
 
 #entry-plus:hover {
